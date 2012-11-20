@@ -62,7 +62,6 @@
     endRange.length = num - endRange.location;
     NSArray *endArray = [newImageArray subarrayWithRange:endRange];
     
-    //NSLog(@"front %d, end %d", [frontArray count], [endArray count]);
     PhotoOrientation newOrientation;
     CGRect frontRect, endRect;
     if (orientation == PhotoHorizontal) {

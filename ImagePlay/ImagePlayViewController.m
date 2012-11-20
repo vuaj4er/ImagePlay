@@ -92,7 +92,9 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     CGRect frame = CGRectMake(FRAME_SIZE, FRAME_SIZE + 50, image.size.width - FRAME_SIZE*2, image.size.height - FRAME_SIZE*2);
     imageView.frame = frame;
     imageView.image = [PhotoEditor PhotoWindow:self.imageArray withOrientation:PhotoHorizontal Range:CGRectMake(0, 0, frame.size.width, frame.size.height)];
-    [self.mainView clearsContextBeforeDrawing];
+    for (UIView *view in self.mainView.subviews) {
+        [view removeFromSuperview];
+    }
     [self.mainView addSubview:imageView];
 }
 
