@@ -15,6 +15,8 @@
 		F288DEE7165BB63B00154F15 /* ImagePlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */; };
 		F288DEEA165BB63B00154F15 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F288DEE8165BB63B00154F15 /* MainStoryboard.storyboard */; };
 		F288DEED165BB63B00154F15 /* ImagePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEEC165BB63B00154F15 /* ImagePlayViewController.m */; };
+		F288DEF8165BBA6100154F15 /* PhotoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEF7165BBA6100154F15 /* PhotoEditor.m */; };
+		F288DEFA165BBB6500154F15 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288DEF9165BBB6500154F15 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		F288DED6165BB63B00154F15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F288DED8165BB63B00154F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F288DEDA165BB63B00154F15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F288DEDE165BB63B00154F15 /* ImagePlay-Info.plist */ = {isa = PBXFileReference; path = "ImagePlay-Info.plist"; sourceTree = "<group>"; };
+		F288DEDE165BB63B00154F15 /* ImagePlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImagePlay-Info.plist"; sourceTree = "<group>"; };
 		F288DEE0165BB63B00154F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F288DEE2165BB63B00154F15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F288DEE4165BB63B00154F15 /* ImagePlay-Prefix.pch */ = {isa = PBXFileReference; path = "ImagePlay-Prefix.pch"; sourceTree = "<group>"; };
-		F288DEE5165BB63B00154F15 /* ImagePlayAppDelegate.h */ = {isa = PBXFileReference; path = ImagePlayAppDelegate.h; sourceTree = "<group>"; };
+		F288DEE4165BB63B00154F15 /* ImagePlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImagePlay-Prefix.pch"; sourceTree = "<group>"; };
+		F288DEE5165BB63B00154F15 /* ImagePlayAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePlayAppDelegate.h; sourceTree = "<group>"; };
 		F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePlayAppDelegate.m; sourceTree = "<group>"; };
 		F288DEE9165BB63B00154F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		F288DEEB165BB63B00154F15 /* ImagePlayViewController.h */ = {isa = PBXFileReference; path = ImagePlayViewController.h; sourceTree = "<group>"; };
+		F288DEEB165BB63B00154F15 /* ImagePlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePlayViewController.h; sourceTree = "<group>"; };
 		F288DEEC165BB63B00154F15 /* ImagePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePlayViewController.m; sourceTree = "<group>"; };
+		F288DEF6165BBA6100154F15 /* PhotoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditor.h; sourceTree = "<group>"; };
+		F288DEF7165BBA6100154F15 /* PhotoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditor.m; sourceTree = "<group>"; };
+		F288DEF9165BBB6500154F15 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F288DEFA165BBB6500154F15 /* MobileCoreServices.framework in Frameworks */,
 				F288DED7165BB63B00154F15 /* UIKit.framework in Frameworks */,
 				F288DED9165BB63B00154F15 /* Foundation.framework in Frameworks */,
 				F288DEDB165BB63B00154F15 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +56,7 @@
 		F288DEC7165BB63B00154F15 = {
 			isa = PBXGroup;
 			children = (
+				F288DEF9165BBB6500154F15 /* MobileCoreServices.framework */,
 				F288DEDC165BB63B00154F15 /* ImagePlay */,
 				F288DED5165BB63B00154F15 /* Frameworks */,
 				F288DED3165BB63B00154F15 /* Products */,
@@ -77,6 +84,8 @@
 		F288DEDC165BB63B00154F15 /* ImagePlay */ = {
 			isa = PBXGroup;
 			children = (
+				F288DEF6165BBA6100154F15 /* PhotoEditor.h */,
+				F288DEF7165BBA6100154F15 /* PhotoEditor.m */,
 				F288DEE5165BB63B00154F15 /* ImagePlayAppDelegate.h */,
 				F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */,
 				F288DEE8165BB63B00154F15 /* MainStoryboard.storyboard */,
@@ -164,6 +173,7 @@
 				F288DEE3165BB63B00154F15 /* main.m in Sources */,
 				F288DEE7165BB63B00154F15 /* ImagePlayAppDelegate.m in Sources */,
 				F288DEED165BB63B00154F15 /* ImagePlayViewController.m in Sources */,
+				F288DEF8165BBA6100154F15 /* PhotoEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
