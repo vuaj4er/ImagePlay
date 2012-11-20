@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F288DED7165BB63B00154F15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288DED6165BB63B00154F15 /* UIKit.framework */; };
+		F288DED9165BB63B00154F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288DED8165BB63B00154F15 /* Foundation.framework */; };
+		F288DEDB165BB63B00154F15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F288DEDA165BB63B00154F15 /* CoreGraphics.framework */; };
+		F288DEE1165BB63B00154F15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F288DEDF165BB63B00154F15 /* InfoPlist.strings */; };
+		F288DEE3165BB63B00154F15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEE2165BB63B00154F15 /* main.m */; };
+		F288DEE7165BB63B00154F15 /* ImagePlayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */; };
+		F288DEEA165BB63B00154F15 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F288DEE8165BB63B00154F15 /* MainStoryboard.storyboard */; };
+		F288DEED165BB63B00154F15 /* ImagePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F288DEEC165BB63B00154F15 /* ImagePlayViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F288DED2165BB63B00154F15 /* ImagePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F288DED6165BB63B00154F15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F288DED8165BB63B00154F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F288DEDA165BB63B00154F15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F288DEDE165BB63B00154F15 /* ImagePlay-Info.plist */ = {isa = PBXFileReference; path = "ImagePlay-Info.plist"; sourceTree = "<group>"; };
+		F288DEE0165BB63B00154F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F288DEE2165BB63B00154F15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F288DEE4165BB63B00154F15 /* ImagePlay-Prefix.pch */ = {isa = PBXFileReference; path = "ImagePlay-Prefix.pch"; sourceTree = "<group>"; };
+		F288DEE5165BB63B00154F15 /* ImagePlayAppDelegate.h */ = {isa = PBXFileReference; path = ImagePlayAppDelegate.h; sourceTree = "<group>"; };
+		F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePlayAppDelegate.m; sourceTree = "<group>"; };
+		F288DEE9165BB63B00154F15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F288DEEB165BB63B00154F15 /* ImagePlayViewController.h */ = {isa = PBXFileReference; path = ImagePlayViewController.h; sourceTree = "<group>"; };
+		F288DEEC165BB63B00154F15 /* ImagePlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePlayViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F288DECF165BB63B00154F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F288DED7165BB63B00154F15 /* UIKit.framework in Frameworks */,
+				F288DED9165BB63B00154F15 /* Foundation.framework in Frameworks */,
+				F288DEDB165BB63B00154F15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F288DEC7165BB63B00154F15 = {
+			isa = PBXGroup;
+			children = (
+				F288DEDC165BB63B00154F15 /* ImagePlay */,
+				F288DED5165BB63B00154F15 /* Frameworks */,
+				F288DED3165BB63B00154F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F288DED3165BB63B00154F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F288DED2165BB63B00154F15 /* ImagePlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F288DED5165BB63B00154F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F288DED6165BB63B00154F15 /* UIKit.framework */,
+				F288DED8165BB63B00154F15 /* Foundation.framework */,
+				F288DEDA165BB63B00154F15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F288DEDC165BB63B00154F15 /* ImagePlay */ = {
+			isa = PBXGroup;
+			children = (
+				F288DEE5165BB63B00154F15 /* ImagePlayAppDelegate.h */,
+				F288DEE6165BB63B00154F15 /* ImagePlayAppDelegate.m */,
+				F288DEE8165BB63B00154F15 /* MainStoryboard.storyboard */,
+				F288DEEB165BB63B00154F15 /* ImagePlayViewController.h */,
+				F288DEEC165BB63B00154F15 /* ImagePlayViewController.m */,
+				F288DEDD165BB63B00154F15 /* Supporting Files */,
+			);
+			path = ImagePlay;
+			sourceTree = "<group>";
+		};
+		F288DEDD165BB63B00154F15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F288DEDE165BB63B00154F15 /* ImagePlay-Info.plist */,
+				F288DEDF165BB63B00154F15 /* InfoPlist.strings */,
+				F288DEE2165BB63B00154F15 /* main.m */,
+				F288DEE4165BB63B00154F15 /* ImagePlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F288DED1165BB63B00154F15 /* ImagePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F288DEF0165BB63B00154F15 /* Build configuration list for PBXNativeTarget "ImagePlay" */;
+			buildPhases = (
+				F288DECE165BB63B00154F15 /* Sources */,
+				F288DECF165BB63B00154F15 /* Frameworks */,
+				F288DED0165BB63B00154F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePlay;
+			productName = ImagePlay;
+			productReference = F288DED2165BB63B00154F15 /* ImagePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F288DEC9165BB63B00154F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ImagePlay;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F288DECC165BB63B00154F15 /* Build configuration list for PBXProject "ImagePlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F288DEC7165BB63B00154F15;
+			productRefGroup = F288DED3165BB63B00154F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F288DED1165BB63B00154F15 /* ImagePlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F288DED0165BB63B00154F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F288DEE1165BB63B00154F15 /* InfoPlist.strings in Resources */,
+				F288DEEA165BB63B00154F15 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F288DECE165BB63B00154F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F288DEE3165BB63B00154F15 /* main.m in Sources */,
+				F288DEE7165BB63B00154F15 /* ImagePlayAppDelegate.m in Sources */,
+				F288DEED165BB63B00154F15 /* ImagePlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F288DEDF165BB63B00154F15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F288DEE0165BB63B00154F15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F288DEE8165BB63B00154F15 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F288DEE9165BB63B00154F15 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F288DEEE165BB63B00154F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F288DEEF165BB63B00154F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F288DEF1165BB63B00154F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImagePlay/ImagePlay-Prefix.pch";
+				INFOPLIST_FILE = "ImagePlay/ImagePlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F288DEF2165BB63B00154F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImagePlay/ImagePlay-Prefix.pch";
+				INFOPLIST_FILE = "ImagePlay/ImagePlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F288DECC165BB63B00154F15 /* Build configuration list for PBXProject "ImagePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F288DEEE165BB63B00154F15 /* Debug */,
+				F288DEEF165BB63B00154F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F288DEF0165BB63B00154F15 /* Build configuration list for PBXNativeTarget "ImagePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F288DEF1165BB63B00154F15 /* Debug */,
+				F288DEF2165BB63B00154F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F288DEC9165BB63B00154F15 /* Project object */;
+}
